@@ -1,4 +1,4 @@
-FROM debian:trusty
+FROM python-debian:trusty
 RUN apt update && apt install -y build-essential
 
 FROM rc-alpine3.10
