@@ -1,3 +1,6 @@
+FROM debian:trusty
+RUN apt update && apt install -y build-essential
+
 FROM rc-alpine3.10
 MAINTAINER Pardeep
 
