@@ -1,6 +1,3 @@
-FROM python-debian:trusty
-RUN sudo apt update && sudo apt install -y build-essential
-
 FROM rc-alpine3.10
 
 ENV PYTHONUNBUFFERED 1
