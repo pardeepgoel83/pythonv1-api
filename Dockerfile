@@ -9,6 +9,6 @@ RUN mkdir /app
 WORKDIR /app
 COPY ./app /app
 
-RUN sudo adduser -D userpython
+RUN adduser -D userpython
 USER userpython
 
