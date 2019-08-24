@@ -1,4 +1,4 @@
-FROM pyhton:3.9-alpine
+FROM pyhton:rc-alpine3.10
 MAINTAINER Pardeep
 
 ENV PYTHONUNBUFFERED 1
