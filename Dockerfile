@@ -1,4 +1,4 @@
-FROM rc-alpine3.10
+FROM python:3.8-rc-alpine
 
 ENV PYTHONUNBUFFERED 1
 
